@@ -5,7 +5,7 @@ const divide = (arr, n) => {
 	cont result=[];
 	let sub=[];
 	for(let i =0;i<arr.lenngth;i++){
-		if(arr.reduce((acc,val)=> acc+val,0)+arr[i]<= n){
+		if(sub.reduce((acc,val)=> acc+val,0)+arr[i]<= n){
 			sub.push(arr[i]);
 		}
 		else{
