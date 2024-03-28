@@ -3,13 +3,13 @@ const divide = (arr, n) => {
 
 	cont result=[];
 	let sub=[];
-	for(let i =0;i<arr.lenngth;i++){
-		if(sub.reduce((acc,val)=> acc+val,0)+arr[i]<= n){
-			sub.push(arr[i]);
+	for(const num of arr){
+		if(sub.reduce((acc,val)=> acc+val,0)+num<= n){
+			sub.push(num);
 		}
 		else{
 			result.push(sub);
-			sub.push(arr[i]);
+			sub.push(num);
 		}
       }
 	if (sub.length > 0) {
