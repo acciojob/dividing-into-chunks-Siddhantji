@@ -1,7 +1,7 @@
 const arr = [1, 2, 3, 4, 1, 0, 2, 2];
 const divide = (arr, n) => {
 
-	cont r=[];
+	 let r=[];
 	let sub=[];
 	for(const num of arr){
 		if(sub.reduce((acc,val)=> acc+val,0)+num<= n){
