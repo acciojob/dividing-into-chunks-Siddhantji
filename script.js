@@ -7,9 +7,9 @@ const divide = (arr, n) => {
 		if(sub.reduce((acc,val) => acc+val,0)+num <= n){
 			sub.push(num);
 		}
-		else{
+		else{ 
 			r.push(sub);
-			sub=num;
+			sub=[num];
 		}
       }
 	if (sub.length > 0) {
