@@ -14,7 +14,12 @@ const divide = (arr, n) => {
 		}
 		
       }
-	result.push(sub);
+	if (currentSubarray.length > 0) {
+
+    result.push(sub);
+
+}
+
 	return result;
 };
 
