@@ -15,7 +15,7 @@ const divide = (arr, n) => {
 		
       }
 	result.push(sub);
-	console.log(result);
+	return result;
 };
 
 const n = prompt("Enter n: ");
